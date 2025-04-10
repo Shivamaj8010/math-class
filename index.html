@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogdand Mathematics Classes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <i class="fas fa-square-root-alt text-3xl text-blue-600 mr-2"></i>
+                <h1 class="text-2xl font-bold text-gray-800">Jogdand Mathematics Classes</h1>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#home" class="text-gray-700 hover:text-blue-600">Home</a>
+                <a href="#about" class="text-gray-700 hover:text-blue-600">About</a>
+                <a href="#courses" class="text-gray-700 hover:text-blue-600">Courses</a>
+                <a href="#testimonials" class="text-gray-700 hover:text-blue-600">Testimonials</a>
+                <a href="#contact" class="text-gray-700 hover:text-blue-600">Contact</a>
+            </nav>
+            <button class="md:hidden text-gray-700">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="py-20 bg-gradient-to-r from-blue-500 to-blue-700 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Master Mathematics with Expert Guidance</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Personalized coaching for school students to excel in mathematics and build strong fundamentals.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#contact" id="enroll-button" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition duration-300">Enroll Now</a>                <a href="#courses" class="border-2 border-white text-white px-8 py-3 rounded-lg font-medium hover:bg-white hover:text-blue-600 transition duration-300">Our Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">About Our Classes</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1509869175650-a1d97972541a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Math Class" class="rounded-lg shadow-lg w-full">
+                </div>
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Why Choose Jogdand Mathematics Classes?</h3>
+                    <p class="text-gray-600 mb-6">With over 10 years of experience in teaching mathematics, we provide personalized attention to each student to help them overcome their fear of math and develop a love for the subject.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Experienced and qualified faculty</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Small batch sizes for individual attention</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Regular tests and progress reports</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">Conceptual learning approach</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Courses</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">We offer comprehensive  classes for better understanding and competitive exams.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Course 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">School Curriculum</h3>
+                    <p class="text-gray-600 mb-4">Classes 6th to 10th (CBSE, ICSE, State Boards)</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 text-xs mt-1 mr-2"></i>
+                            <span class="text-gray-700 text-sm">Complete syllabus coverage</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 text-xs mt-1 mr-2"></i>
+                            <span class="text-gray-700 text-sm">Doubt solving sessions</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 text-xs mt-1 mr-2"></i>
+                            <span class="text-gray-700 text-sm">weekly and Monthly tests</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-blue-600 font-medium hover:text-blue-800 inline-flex items-center">Enquire Now <i class="fas fa-arrow-right ml-2"></i></a>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">11th & 12th Science</h3>
+                    <p class="text-gray-600 mb-4">Mathematics for All stream students</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 text-xs mt-1 mr-2"></i>
+                            <span class="text-gray-700 text-sm">Detailed theory and problem solving</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 text-xs mt-1 mr-2"></i>
+                            <span class="text-gray-700 text-sm">Board exam preparation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 text-xs mt-1 mr-2"></i>
+                            <span class="text-gray-700 text-sm">Competitive exam foundation</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-blue-600 font-medium hover:text-blue-800 inline-flex items-center">Enquire Now <i class="fas fa-arrow-right ml-2"></i></a>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Competitive Exams</h3>
+                    <p class="text-gray-600 mb-4">NTSE, JNVST, Olympiads preparation</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 text-xs mt-1 mr-2"></i>
+                            <span class="text-gray-700 text-sm">Advanced problem solving</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 text-xs mt-1 mr-2"></i>
+                            <span class="text-gray-700 text-sm">Mock tests and analysis</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 text-xs mt-1 mr-2"></i>
+                            <span class="text-gray-700 text-sm">Time management strategies</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-blue-600 font-medium hover:text-blue-800 inline-flex items-center">Enquire Now <i class="fas fa-arrow-right ml-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">What Our Students Say</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">"Jogdand Sir's and Jogdand Mam teaching methods made math so much easier for me. I went from fearing math to loving it!"</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 text-blue-600 rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                            <span class="font-medium">RS</span>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-gray-800">Krishna Savandkar</h4>
+                            <p class="text-sm text-gray-600">Class 10 Student</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">"The small batch size ensures individual attention. My daughter's math scores improved dramatically in just 3 months."</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 text-blue-600 rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                            <span class="font-medium">PM</span>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-gray-800">Vansh Indulkar</h4>
+                            <p class="text-sm text-gray-600">Parent</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">"The competitive exam preparation course provided comprehensive guidance, helping me excel in my Class 12 board exams with outstanding results. Highly recommended for anyone aiming for academic success!"</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 text-blue-600 rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                            <span class="font-medium">AK</span>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-gray-800">Amit Kumar</h4>
+                            <p class="text-sm text-gray-600">Class 12 Student </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+                <div class="w-20 h-1 bg-white mx-auto"></div>
+                <p class="mt-4 max-w-2xl mx-auto">Get in touch to enroll or for any queries about our classes.</p>
+            </div>
+            <div class="flex flex-col md:flex-row gap-8">
+                <div class="md:w-1/2">
+                    <h3 class="text-xl font-semibold mb-4">Our Information</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-medium">Address</h4>
+                                <p class="text-blue-100">Shri Nagar colony, Mahesh Square, Basmath, Maharashtra 431512</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-phone-alt mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-medium">Phone</h4>
+                                <p class="text-blue-100">+91 8208226496</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-medium">Email</h4>
+                                <p class="text-blue-100">shivamaj2005@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-clock mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-medium">Timings</h4>
+                                <p class="text-blue-100">Monday to Saturday: 8 AM - 8 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <h3 class="text-xl font-semibold mb-4">Send Us a Message</h3>
+                   
+                          
+                          <!-- Google Form Embed -->
+                          <div class="aspect-video">
+                            <iframe 
+                              src="https://docs.google.com/forms/d/e/1FAIpQLSf6MV6CwZUKLsE6SFT8OPRwFaku8VfYiSSh4Ayb4BwRorIjlg/viewform?embedded=true" 
+                              width="100%" 
+                              height="100%" 
+                              frameborder="0" 
+                              marginheight="0" 
+                              marginwidth="0">
+                              Loading…
+                            </iframe>
+                          </div>
+                          
+                        </div>
+                      </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <div class="flex items-center">
+                        <i class="fas fa-square-root-alt text-2xl text-blue-400 mr-2"></i>
+                        <h2 class="text-xl font-bold">Jogdand Mathematics Classes</h2>
+                    </div>
+                    <p class="text-gray-400 mt-2">Building strong mathematical foundations since 2016.</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-6 pt-6 text-center text-gray-400">
+                <p>&copy; 2023 Jogdand Mathematics Classes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Button -->
+    <div class="fixed bottom-6 right-6 md:hidden">
+        <button class="bg-blue-600 text-white w-14 h-14 rounded-full shadow-lg flex items-center justify-center">
+            <i class="fas fa-bars text-2xl"></i>
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
